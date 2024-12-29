@@ -7,10 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60A14EB2D21F34500A7CA28 /* Das.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A14EA2D21F34500A7CA28 /* Das.swift */; };
+		F60A14ED2D21F36400A7CA28 /* MockDas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A14EC2D21F36400A7CA28 /* MockDas.swift */; };
 		F664E9432CE2CCB6003AAF55 /* IHateTaxes.docc in Sources */ = {isa = PBXBuildFile; fileRef = F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */; };
 		F664E9492CE2CCB6003AAF55 /* IHateTaxes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664E93E2CE2CCB6003AAF55 /* IHateTaxes.framework */; };
 		F664E94E2CE2CCB6003AAF55 /* IHateTaxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E94D2CE2CCB6003AAF55 /* IHateTaxesTests.swift */; };
 		F664E94F2CE2CCB6003AAF55 /* IHateTaxes.h in Headers */ = {isa = PBXBuildFile; fileRef = F664E9412CE2CCB6003AAF55 /* IHateTaxes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664E95D2CE2CE31003AAF55 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E95C2CE2CE31003AAF55 /* NetworkManager.swift */; };
+		F664E95E2CE2CE31003AAF55 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E95C2CE2CE31003AAF55 /* NetworkManager.swift */; };
+		F664E9602CE2CED1003AAF55 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E95F2CE2CED1003AAF55 /* NetworkManagerTests.swift */; };
+		F698347D2D12462500A9AEB9 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F698347C2D12462500A9AEB9 /* MockURLSession.swift */; };
+		F69834922D13889500A9AEB9 /* DasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69834912D13889500A9AEB9 /* DasTests.swift */; };
+		F69834962D1389F700A9AEB9 /* Inss.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69834952D1389F700A9AEB9 /* Inss.swift */; };
+		F69834982D138C2B00A9AEB9 /* AmountHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69834972D138C2B00A9AEB9 /* AmountHandler.swift */; };
+		F69834992D138C2B00A9AEB9 /* AmountHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69834972D138C2B00A9AEB9 /* AmountHandler.swift */; };
+		F698349B2D138C4700A9AEB9 /* AmountHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F698349A2D138C4700A9AEB9 /* AmountHandlerTests.swift */; };
+		F698349D2D138DF500A9AEB9 /* InssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F698349C2D138DF500A9AEB9 /* InssTests.swift */; };
+		F6A3F33C2D21C881001B5704 /* ExpenseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F33B2D21C881001B5704 /* ExpenseSettings.swift */; };
+		F6A3F3432D21CD01001B5704 /* ExpenseSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F3422D21CD01001B5704 /* ExpenseSettingsTests.swift */; };
+		F6A3F3452D21D03F001B5704 /* Vrau.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F3442D21D03F001B5704 /* Vrau.swift */; };
+		F6A3F3472D21DB7C001B5704 /* VrauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F3462D21DB7C001B5704 /* VrauTests.swift */; };
+		F6A3F34C2D21E8E1001B5704 /* MockInss.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F34B2D21E8E1001B5704 /* MockInss.swift */; };
+		F6A3F34E2D21EB42001B5704 /* MockExpenseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F34D2D21EB42001B5704 /* MockExpenseSettings.swift */; };
+		F6D281212CE41B3400A28063 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281202CE41B3400A28063 /* ExchangeRate.swift */; };
+		F6D281232CE41BC300A28063 /* EchangeRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281222CE41BC300A28063 /* EchangeRateTests.swift */; };
+		F6D281262CE4229400A28063 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281252CE4229400A28063 /* CoinGecko.swift */; };
+		F6D281272CE4229400A28063 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281252CE4229400A28063 /* CoinGecko.swift */; };
+		F6D281292CE4249B00A28063 /* CoinGeckoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281282CE4249B00A28063 /* CoinGeckoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +47,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F60A14EA2D21F34500A7CA28 /* Das.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Das.swift; sourceTree = "<group>"; };
+		F60A14EC2D21F36400A7CA28 /* MockDas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDas.swift; sourceTree = "<group>"; };
 		F664E93E2CE2CCB6003AAF55 /* IHateTaxes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHateTaxes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664E9412CE2CCB6003AAF55 /* IHateTaxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHateTaxes.h; sourceTree = "<group>"; };
 		F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IHateTaxes.docc; sourceTree = "<group>"; };
 		F664E9482CE2CCB6003AAF55 /* IHateTaxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHateTaxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664E94D2CE2CCB6003AAF55 /* IHateTaxesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHateTaxesTests.swift; sourceTree = "<group>"; };
+		F664E95C2CE2CE31003AAF55 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F664E95F2CE2CED1003AAF55 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		F698347C2D12462500A9AEB9 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		F69834912D13889500A9AEB9 /* DasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasTests.swift; sourceTree = "<group>"; };
+		F69834952D1389F700A9AEB9 /* Inss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inss.swift; sourceTree = "<group>"; };
+		F69834972D138C2B00A9AEB9 /* AmountHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountHandler.swift; sourceTree = "<group>"; };
+		F698349A2D138C4700A9AEB9 /* AmountHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountHandlerTests.swift; sourceTree = "<group>"; };
+		F698349C2D138DF500A9AEB9 /* InssTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InssTests.swift; sourceTree = "<group>"; };
+		F6A3F33B2D21C881001B5704 /* ExpenseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSettings.swift; sourceTree = "<group>"; };
+		F6A3F3422D21CD01001B5704 /* ExpenseSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSettingsTests.swift; sourceTree = "<group>"; };
+		F6A3F3442D21D03F001B5704 /* Vrau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vrau.swift; sourceTree = "<group>"; };
+		F6A3F3462D21DB7C001B5704 /* VrauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VrauTests.swift; sourceTree = "<group>"; };
+		F6A3F34B2D21E8E1001B5704 /* MockInss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockInss.swift; sourceTree = "<group>"; };
+		F6A3F34D2D21EB42001B5704 /* MockExpenseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExpenseSettings.swift; sourceTree = "<group>"; };
+		F6D281202CE41B3400A28063 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		F6D281222CE41BC300A28063 /* EchangeRateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchangeRateTests.swift; sourceTree = "<group>"; };
+		F6D281252CE4229400A28063 /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
+		F6D281282CE4249B00A28063 /* CoinGeckoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGeckoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +114,8 @@
 		F664E9402CE2CCB6003AAF55 /* IHateTaxes */ = {
 			isa = PBXGroup;
 			children = (
+				F698347F2D1381E400A9AEB9 /* Accounting */,
+				F664E9582CE2CD5B003AAF55 /* Network */,
 				F664E9412CE2CCB6003AAF55 /* IHateTaxes.h */,
 				F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */,
 			);
@@ -80,9 +125,91 @@
 		F664E94C2CE2CCB6003AAF55 /* IHateTaxesTests */ = {
 			isa = PBXGroup;
 			children = (
+				F69834822D1386EA00A9AEB9 /* AccountingTests */,
+				F698347E2D137F2C00A9AEB9 /* NetworkTests */,
 				F664E94D2CE2CCB6003AAF55 /* IHateTaxesTests.swift */,
 			);
 			path = IHateTaxesTests;
+			sourceTree = "<group>";
+		};
+		F664E9582CE2CD5B003AAF55 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F6D281242CE4225700A28063 /* CryptoServices */,
+				F6D2811F2CE41AF500A28063 /* Fiat */,
+				F664E95C2CE2CE31003AAF55 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F698347B2D1245F600A9AEB9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F698347C2D12462500A9AEB9 /* MockURLSession.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F698347E2D137F2C00A9AEB9 /* NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F698347B2D1245F600A9AEB9 /* Mocks */,
+				F664E95F2CE2CED1003AAF55 /* NetworkManagerTests.swift */,
+				F6D281222CE41BC300A28063 /* EchangeRateTests.swift */,
+				F6D281282CE4249B00A28063 /* CoinGeckoTests.swift */,
+			);
+			path = NetworkTests;
+			sourceTree = "<group>";
+		};
+		F698347F2D1381E400A9AEB9 /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				F69834952D1389F700A9AEB9 /* Inss.swift */,
+				F69834972D138C2B00A9AEB9 /* AmountHandler.swift */,
+				F6A3F33B2D21C881001B5704 /* ExpenseSettings.swift */,
+				F6A3F3442D21D03F001B5704 /* Vrau.swift */,
+				F60A14EA2D21F34500A7CA28 /* Das.swift */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		F69834822D1386EA00A9AEB9 /* AccountingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3F3482D21E878001B5704 /* Mocks */,
+				F69834912D13889500A9AEB9 /* DasTests.swift */,
+				F698349A2D138C4700A9AEB9 /* AmountHandlerTests.swift */,
+				F698349C2D138DF500A9AEB9 /* InssTests.swift */,
+				F6A3F3422D21CD01001B5704 /* ExpenseSettingsTests.swift */,
+				F6A3F3462D21DB7C001B5704 /* VrauTests.swift */,
+			);
+			path = AccountingTests;
+			sourceTree = "<group>";
+		};
+		F6A3F3482D21E878001B5704 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3F34B2D21E8E1001B5704 /* MockInss.swift */,
+				F6A3F34D2D21EB42001B5704 /* MockExpenseSettings.swift */,
+				F60A14EC2D21F36400A7CA28 /* MockDas.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F6D2811F2CE41AF500A28063 /* Fiat */ = {
+			isa = PBXGroup;
+			children = (
+				F6D281202CE41B3400A28063 /* ExchangeRate.swift */,
+			);
+			path = Fiat;
+			sourceTree = "<group>";
+		};
+		F6D281242CE4225700A28063 /* CryptoServices */ = {
+			isa = PBXGroup;
+			children = (
+				F6D281252CE4229400A28063 /* CoinGecko.swift */,
+			);
+			path = CryptoServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D281262CE4229400A28063 /* CoinGecko.swift in Sources */,
+				F6A3F33C2D21C881001B5704 /* ExpenseSettings.swift in Sources */,
+				F6A3F3452D21D03F001B5704 /* Vrau.swift in Sources */,
+				F664E95D2CE2CE31003AAF55 /* NetworkManager.swift in Sources */,
+				F69834962D1389F700A9AEB9 /* Inss.swift in Sources */,
+				F60A14EB2D21F34500A7CA28 /* Das.swift in Sources */,
+				F69834982D138C2B00A9AEB9 /* AmountHandler.swift in Sources */,
+				F6D281212CE41B3400A28063 /* ExchangeRate.swift in Sources */,
 				F664E9432CE2CCB6003AAF55 /* IHateTaxes.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +337,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A3F34C2D21E8E1001B5704 /* MockInss.swift in Sources */,
+				F664E9602CE2CED1003AAF55 /* NetworkManagerTests.swift in Sources */,
+				F664E95E2CE2CE31003AAF55 /* NetworkManager.swift in Sources */,
+				F69834992D138C2B00A9AEB9 /* AmountHandler.swift in Sources */,
+				F6D281292CE4249B00A28063 /* CoinGeckoTests.swift in Sources */,
+				F69834922D13889500A9AEB9 /* DasTests.swift in Sources */,
+				F6D281272CE4229400A28063 /* CoinGecko.swift in Sources */,
+				F698349B2D138C4700A9AEB9 /* AmountHandlerTests.swift in Sources */,
+				F698347D2D12462500A9AEB9 /* MockURLSession.swift in Sources */,
+				F6A3F3432D21CD01001B5704 /* ExpenseSettingsTests.swift in Sources */,
+				F60A14ED2D21F36400A7CA28 /* MockDas.swift in Sources */,
+				F6A3F34E2D21EB42001B5704 /* MockExpenseSettings.swift in Sources */,
 				F664E94E2CE2CCB6003AAF55 /* IHateTaxesTests.swift in Sources */,
+				F698349D2D138DF500A9AEB9 /* InssTests.swift in Sources */,
+				F6D281232CE41BC300A28063 /* EchangeRateTests.swift in Sources */,
+				F6A3F3472D21DB7C001B5704 /* VrauTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4VJQJZ48UZ;
@@ -444,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4VJQJZ48UZ;

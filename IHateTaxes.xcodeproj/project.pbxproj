@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F60A14EB2D21F34500A7CA28 /* Das.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A14EA2D21F34500A7CA28 /* Das.swift */; };
 		F60A14ED2D21F36400A7CA28 /* MockDas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A14EC2D21F36400A7CA28 /* MockDas.swift */; };
+		F628B82A2D2761C20062C199 /* AmountInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B8292D2761C20062C199 /* AmountInput.swift */; };
+		F628B82C2D2764830062C199 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B82B2D2764830062C199 /* Button.swift */; };
+		F628B82E2D2766290062C199 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B82D2D2766290062C199 /* Form.swift */; };
 		F664E9432CE2CCB6003AAF55 /* IHateTaxes.docc in Sources */ = {isa = PBXBuildFile; fileRef = F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */; };
 		F664E9492CE2CCB6003AAF55 /* IHateTaxes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664E93E2CE2CCB6003AAF55 /* IHateTaxes.framework */; };
 		F664E94E2CE2CCB6003AAF55 /* IHateTaxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E94D2CE2CCB6003AAF55 /* IHateTaxesTests.swift */; };
@@ -29,6 +32,9 @@
 		F6A3F3472D21DB7C001B5704 /* VrauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F3462D21DB7C001B5704 /* VrauTests.swift */; };
 		F6A3F34C2D21E8E1001B5704 /* MockInss.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F34B2D21E8E1001B5704 /* MockInss.swift */; };
 		F6A3F34E2D21EB42001B5704 /* MockExpenseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3F34D2D21EB42001B5704 /* MockExpenseSettings.swift */; };
+		F6CB1BFE2D2F4D6100B3B096 /* FormExpenseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1BFD2D2F4D6100B3B096 /* FormExpenseSettings.swift */; };
+		F6CB1C002D2F536000B3B096 /* NumberOfMonthsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1BFF2D2F536000B3B096 /* NumberOfMonthsPicker.swift */; };
+		F6CB1C022D2F59CB00B3B096 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1C012D2F59CB00B3B096 /* Switch.swift */; };
 		F6D281212CE41B3400A28063 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281202CE41B3400A28063 /* ExchangeRate.swift */; };
 		F6D281232CE41BC300A28063 /* EchangeRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281222CE41BC300A28063 /* EchangeRateTests.swift */; };
 		F6D281262CE4229400A28063 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281252CE4229400A28063 /* CoinGecko.swift */; };
@@ -49,6 +55,9 @@
 /* Begin PBXFileReference section */
 		F60A14EA2D21F34500A7CA28 /* Das.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Das.swift; sourceTree = "<group>"; };
 		F60A14EC2D21F36400A7CA28 /* MockDas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDas.swift; sourceTree = "<group>"; };
+		F628B8292D2761C20062C199 /* AmountInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountInput.swift; sourceTree = "<group>"; };
+		F628B82B2D2764830062C199 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		F628B82D2D2766290062C199 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		F664E93E2CE2CCB6003AAF55 /* IHateTaxes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHateTaxes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664E9412CE2CCB6003AAF55 /* IHateTaxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHateTaxes.h; sourceTree = "<group>"; };
 		F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IHateTaxes.docc; sourceTree = "<group>"; };
@@ -68,6 +77,9 @@
 		F6A3F3462D21DB7C001B5704 /* VrauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VrauTests.swift; sourceTree = "<group>"; };
 		F6A3F34B2D21E8E1001B5704 /* MockInss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockInss.swift; sourceTree = "<group>"; };
 		F6A3F34D2D21EB42001B5704 /* MockExpenseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExpenseSettings.swift; sourceTree = "<group>"; };
+		F6CB1BFD2D2F4D6100B3B096 /* FormExpenseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExpenseSettings.swift; sourceTree = "<group>"; };
+		F6CB1BFF2D2F536000B3B096 /* NumberOfMonthsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfMonthsPicker.swift; sourceTree = "<group>"; };
+		F6CB1C012D2F59CB00B3B096 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		F6D281202CE41B3400A28063 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		F6D281222CE41BC300A28063 /* EchangeRateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchangeRateTests.swift; sourceTree = "<group>"; };
 		F6D281252CE4229400A28063 /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
@@ -93,6 +105,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F628B8282D2760940062C199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F628B8292D2761C20062C199 /* AmountInput.swift */,
+				F628B82B2D2764830062C199 /* Button.swift */,
+				F628B82D2D2766290062C199 /* Form.swift */,
+				F6CB1BFD2D2F4D6100B3B096 /* FormExpenseSettings.swift */,
+				F6CB1BFF2D2F536000B3B096 /* NumberOfMonthsPicker.swift */,
+				F6CB1C012D2F59CB00B3B096 /* Switch.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F664E9342CE2CCB6003AAF55 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +139,7 @@
 		F664E9402CE2CCB6003AAF55 /* IHateTaxes */ = {
 			isa = PBXGroup;
 			children = (
+				F628B8282D2760940062C199 /* Views */,
 				F698347F2D1381E400A9AEB9 /* Accounting */,
 				F664E9582CE2CD5B003AAF55 /* Network */,
 				F664E9412CE2CCB6003AAF55 /* IHateTaxes.h */,
@@ -164,9 +190,9 @@
 		F698347F2D1381E400A9AEB9 /* Accounting */ = {
 			isa = PBXGroup;
 			children = (
+				F6A3F33B2D21C881001B5704 /* ExpenseSettings.swift */,
 				F69834952D1389F700A9AEB9 /* Inss.swift */,
 				F69834972D138C2B00A9AEB9 /* AmountHandler.swift */,
-				F6A3F33B2D21C881001B5704 /* ExpenseSettings.swift */,
 				F6A3F3442D21D03F001B5704 /* Vrau.swift */,
 				F60A14EA2D21F34500A7CA28 /* Das.swift */,
 			);
@@ -321,15 +347,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F628B82A2D2761C20062C199 /* AmountInput.swift in Sources */,
 				F6D281262CE4229400A28063 /* CoinGecko.swift in Sources */,
 				F6A3F33C2D21C881001B5704 /* ExpenseSettings.swift in Sources */,
 				F6A3F3452D21D03F001B5704 /* Vrau.swift in Sources */,
 				F664E95D2CE2CE31003AAF55 /* NetworkManager.swift in Sources */,
+				F628B82E2D2766290062C199 /* Form.swift in Sources */,
 				F69834962D1389F700A9AEB9 /* Inss.swift in Sources */,
+				F6CB1BFE2D2F4D6100B3B096 /* FormExpenseSettings.swift in Sources */,
 				F60A14EB2D21F34500A7CA28 /* Das.swift in Sources */,
+				F6CB1C022D2F59CB00B3B096 /* Switch.swift in Sources */,
 				F69834982D138C2B00A9AEB9 /* AmountHandler.swift in Sources */,
 				F6D281212CE41B3400A28063 /* ExchangeRate.swift in Sources */,
 				F664E9432CE2CCB6003AAF55 /* IHateTaxes.docc in Sources */,
+				F6CB1C002D2F536000B3B096 /* NumberOfMonthsPicker.swift in Sources */,
+				F628B82C2D2764830062C199 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

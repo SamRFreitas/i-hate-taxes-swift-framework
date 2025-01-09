@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct Switch: View {
+    
+    @Binding var isOn: Bool // A variável que vai armazenar o estado do Switch
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Toggle(isOn: $isOn) {
+                Text("\(isOn ? "Nacional" : "Internacional")") // O título do Switch
+            }
+            .padding() // Adiciona espaçamento
+            .toggleStyle(SwitchToggleStyle(tint: .blue)) // Estiliza o Switch
+            .frame(maxWidth: 200, alignment: .center) // Alinha à esquerda
+        }
     }
+    
 }
 
-#Preview {
-    Switch()
+struct Switch_Previews: PreviewProvider {
+    
+    @State static var isNational: Bool = false
+
+    static var previews: some View {
+        Switch(isOn: $isNational)
+            .previewLayout(.sizeThatFits)
+            .padding()
+    }
+    
 }

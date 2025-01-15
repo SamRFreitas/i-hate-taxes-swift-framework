@@ -12,6 +12,9 @@
 		F628B82A2D2761C20062C199 /* AmountInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B8292D2761C20062C199 /* AmountInput.swift */; };
 		F628B82C2D2764830062C199 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B82B2D2764830062C199 /* Button.swift */; };
 		F628B82E2D2766290062C199 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B82D2D2766290062C199 /* Form.swift */; };
+		F6409ED52D372E99005B03B3 /* ExpenseSettingsPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6409ED42D372E99005B03B3 /* ExpenseSettingsPersistanceManager.swift */; };
+		F6409ED82D37305F005B03B3 /* UserDefaultsStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6409ED72D37305F005B03B3 /* UserDefaultsStorageTests.swift */; };
+		F6409EDA2D3730F7005B03B3 /* ExpenseSettingsPersistanceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6409ED92D3730F7005B03B3 /* ExpenseSettingsPersistanceManagerTests.swift */; };
 		F664E9432CE2CCB6003AAF55 /* IHateTaxes.docc in Sources */ = {isa = PBXBuildFile; fileRef = F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */; };
 		F664E9492CE2CCB6003AAF55 /* IHateTaxes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664E93E2CE2CCB6003AAF55 /* IHateTaxes.framework */; };
 		F664E94E2CE2CCB6003AAF55 /* IHateTaxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E94D2CE2CCB6003AAF55 /* IHateTaxesTests.swift */; };
@@ -35,6 +38,8 @@
 		F6CB1BFE2D2F4D6100B3B096 /* FormExpenseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1BFD2D2F4D6100B3B096 /* FormExpenseSettings.swift */; };
 		F6CB1C002D2F536000B3B096 /* NumberOfMonthsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1BFF2D2F536000B3B096 /* NumberOfMonthsPicker.swift */; };
 		F6CB1C022D2F59CB00B3B096 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1C012D2F59CB00B3B096 /* Switch.swift */; };
+		F6CB1C052D30A3B100B3B096 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1C042D30A3B100B3B096 /* Persistable.swift */; };
+		F6CB1C092D30A7B900B3B096 /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB1C082D30A7B900B3B096 /* UserDefaultsStorage.swift */; };
 		F6D281212CE41B3400A28063 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281202CE41B3400A28063 /* ExchangeRate.swift */; };
 		F6D281232CE41BC300A28063 /* EchangeRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281222CE41BC300A28063 /* EchangeRateTests.swift */; };
 		F6D281262CE4229400A28063 /* CoinGecko.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D281252CE4229400A28063 /* CoinGecko.swift */; };
@@ -58,6 +63,9 @@
 		F628B8292D2761C20062C199 /* AmountInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountInput.swift; sourceTree = "<group>"; };
 		F628B82B2D2764830062C199 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		F628B82D2D2766290062C199 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		F6409ED42D372E99005B03B3 /* ExpenseSettingsPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSettingsPersistanceManager.swift; sourceTree = "<group>"; };
+		F6409ED72D37305F005B03B3 /* UserDefaultsStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorageTests.swift; sourceTree = "<group>"; };
+		F6409ED92D3730F7005B03B3 /* ExpenseSettingsPersistanceManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSettingsPersistanceManagerTests.swift; sourceTree = "<group>"; };
 		F664E93E2CE2CCB6003AAF55 /* IHateTaxes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHateTaxes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664E9412CE2CCB6003AAF55 /* IHateTaxes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHateTaxes.h; sourceTree = "<group>"; };
 		F664E9422CE2CCB6003AAF55 /* IHateTaxes.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IHateTaxes.docc; sourceTree = "<group>"; };
@@ -80,6 +88,8 @@
 		F6CB1BFD2D2F4D6100B3B096 /* FormExpenseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExpenseSettings.swift; sourceTree = "<group>"; };
 		F6CB1BFF2D2F536000B3B096 /* NumberOfMonthsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfMonthsPicker.swift; sourceTree = "<group>"; };
 		F6CB1C012D2F59CB00B3B096 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		F6CB1C042D30A3B100B3B096 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		F6CB1C082D30A7B900B3B096 /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorage.swift; sourceTree = "<group>"; };
 		F6D281202CE41B3400A28063 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		F6D281222CE41BC300A28063 /* EchangeRateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchangeRateTests.swift; sourceTree = "<group>"; };
 		F6D281252CE4229400A28063 /* CoinGecko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGecko.swift; sourceTree = "<group>"; };
@@ -118,6 +128,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F6409ED62D373041005B03B3 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F6409ED72D37305F005B03B3 /* UserDefaultsStorageTests.swift */,
+				F6409ED92D3730F7005B03B3 /* ExpenseSettingsPersistanceManagerTests.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		F664E9342CE2CCB6003AAF55 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +158,7 @@
 		F664E9402CE2CCB6003AAF55 /* IHateTaxes */ = {
 			isa = PBXGroup;
 			children = (
+				F6CB1C032D30A22400B3B096 /* Persistence */,
 				F628B8282D2760940062C199 /* Views */,
 				F698347F2D1381E400A9AEB9 /* Accounting */,
 				F664E9582CE2CD5B003AAF55 /* Network */,
@@ -151,6 +171,7 @@
 		F664E94C2CE2CCB6003AAF55 /* IHateTaxesTests */ = {
 			isa = PBXGroup;
 			children = (
+				F6409ED62D373041005B03B3 /* Persistence */,
 				F69834822D1386EA00A9AEB9 /* AccountingTests */,
 				F698347E2D137F2C00A9AEB9 /* NetworkTests */,
 				F664E94D2CE2CCB6003AAF55 /* IHateTaxesTests.swift */,
@@ -220,6 +241,16 @@
 				F60A14EC2D21F36400A7CA28 /* MockDas.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F6CB1C032D30A22400B3B096 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F6CB1C042D30A3B100B3B096 /* Persistable.swift */,
+				F6CB1C082D30A7B900B3B096 /* UserDefaultsStorage.swift */,
+				F6409ED42D372E99005B03B3 /* ExpenseSettingsPersistanceManager.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		F6D2811F2CE41AF500A28063 /* Fiat */ = {
@@ -357,9 +388,12 @@
 				F6CB1BFE2D2F4D6100B3B096 /* FormExpenseSettings.swift in Sources */,
 				F60A14EB2D21F34500A7CA28 /* Das.swift in Sources */,
 				F6CB1C022D2F59CB00B3B096 /* Switch.swift in Sources */,
+				F6CB1C052D30A3B100B3B096 /* Persistable.swift in Sources */,
 				F69834982D138C2B00A9AEB9 /* AmountHandler.swift in Sources */,
 				F6D281212CE41B3400A28063 /* ExchangeRate.swift in Sources */,
 				F664E9432CE2CCB6003AAF55 /* IHateTaxes.docc in Sources */,
+				F6CB1C092D30A7B900B3B096 /* UserDefaultsStorage.swift in Sources */,
+				F6409ED52D372E99005B03B3 /* ExpenseSettingsPersistanceManager.swift in Sources */,
 				F6CB1C002D2F536000B3B096 /* NumberOfMonthsPicker.swift in Sources */,
 				F628B82C2D2764830062C199 /* Button.swift in Sources */,
 			);
@@ -374,6 +408,8 @@
 				F664E95E2CE2CE31003AAF55 /* NetworkManager.swift in Sources */,
 				F69834992D138C2B00A9AEB9 /* AmountHandler.swift in Sources */,
 				F6D281292CE4249B00A28063 /* CoinGeckoTests.swift in Sources */,
+				F6409EDA2D3730F7005B03B3 /* ExpenseSettingsPersistanceManagerTests.swift in Sources */,
+				F6409ED82D37305F005B03B3 /* UserDefaultsStorageTests.swift in Sources */,
 				F69834922D13889500A9AEB9 /* DasTests.swift in Sources */,
 				F6D281272CE4229400A28063 /* CoinGecko.swift in Sources */,
 				F698349B2D138C4700A9AEB9 /* AmountHandlerTests.swift in Sources */,

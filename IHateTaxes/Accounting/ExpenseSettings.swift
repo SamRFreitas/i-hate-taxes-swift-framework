@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ExpenseSettings {
+class ExpenseSettings: Codable {
     
     var minimumWage: Double
     var proLaborePercentage: Double

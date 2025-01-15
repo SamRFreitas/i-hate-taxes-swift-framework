@@ -17,6 +17,10 @@ class MockExpenseSettings: ExpenseSettings {
         
     }
     
+    required init(from decoder: any Decoder) throws {
+        fatalError("init(from:) has not been implemented")
+    }
+    
     override func getFundsEarmarkedForAnnualBills() -> Double {
         return 100
     }

@@ -9,6 +9,23 @@
 /* Begin PBXBuildFile section */
 		F60A14EB2D21F34500A7CA28 /* Das.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A14EA2D21F34500A7CA28 /* Das.swift */; };
 		F60A14ED2D21F36400A7CA28 /* MockDas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60A14EC2D21F36400A7CA28 /* MockDas.swift */; };
+		F61A695B2D41A6DE00A944C1 /* Das.swift in Headers */ = {isa = PBXBuildFile; fileRef = F60A14EA2D21F34500A7CA28 /* Das.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A695C2D41A71100A944C1 /* Persistable.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6CB1C042D30A3B100B3B096 /* Persistable.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A695D2D41A71100A944C1 /* UserDefaultsStorage.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6CB1C082D30A7B900B3B096 /* UserDefaultsStorage.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A695E2D41A71100A944C1 /* ExpenseSettingsPersistanceManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6409ED42D372E99005B03B3 /* ExpenseSettingsPersistanceManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A695F2D41A71100A944C1 /* AmountInput.swift in Headers */ = {isa = PBXBuildFile; fileRef = F628B8292D2761C20062C199 /* AmountInput.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69602D41A71100A944C1 /* Button.swift in Headers */ = {isa = PBXBuildFile; fileRef = F628B82B2D2764830062C199 /* Button.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69612D41A71100A944C1 /* Form.swift in Headers */ = {isa = PBXBuildFile; fileRef = F628B82D2D2766290062C199 /* Form.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69622D41A71100A944C1 /* FormExpenseSettings.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6CB1BFD2D2F4D6100B3B096 /* FormExpenseSettings.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69632D41A71100A944C1 /* NumberOfMonthsPicker.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6CB1BFF2D2F536000B3B096 /* NumberOfMonthsPicker.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69642D41A71100A944C1 /* Switch.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6CB1C012D2F59CB00B3B096 /* Switch.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69652D41A71100A944C1 /* ExpenseSettings.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6A3F33B2D21C881001B5704 /* ExpenseSettings.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69662D41A71100A944C1 /* Inss.swift in Headers */ = {isa = PBXBuildFile; fileRef = F69834952D1389F700A9AEB9 /* Inss.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69672D41A71100A944C1 /* AmountHandler.swift in Headers */ = {isa = PBXBuildFile; fileRef = F69834972D138C2B00A9AEB9 /* AmountHandler.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69682D41A71100A944C1 /* Vrau.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6A3F3442D21D03F001B5704 /* Vrau.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A69692D41A71100A944C1 /* CoinGecko.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6D281252CE4229400A28063 /* CoinGecko.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A696A2D41A71100A944C1 /* ExchangeRate.swift in Headers */ = {isa = PBXBuildFile; fileRef = F6D281202CE41B3400A28063 /* ExchangeRate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61A696B2D41A71100A944C1 /* NetworkManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664E95C2CE2CE31003AAF55 /* NetworkManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F628B82A2D2761C20062C199 /* AmountInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B8292D2761C20062C199 /* AmountInput.swift */; };
 		F628B82C2D2764830062C199 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B82B2D2764830062C199 /* Button.swift */; };
 		F628B82E2D2766290062C199 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628B82D2D2766290062C199 /* Form.swift */; };
@@ -140,8 +157,8 @@
 		F664E9342CE2CCB6003AAF55 = {
 			isa = PBXGroup;
 			children = (
-				F664E9402CE2CCB6003AAF55 /* IHateTaxes */,
 				F664E94C2CE2CCB6003AAF55 /* IHateTaxesTests */,
+				F664E9402CE2CCB6003AAF55 /* IHateTaxes */,
 				F664E93F2CE2CCB6003AAF55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -277,6 +294,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F664E94F2CE2CCB6003AAF55 /* IHateTaxes.h in Headers */,
+				F61A695C2D41A71100A944C1 /* Persistable.swift in Headers */,
+				F61A695B2D41A6DE00A944C1 /* Das.swift in Headers */,
+				F61A69652D41A71100A944C1 /* ExpenseSettings.swift in Headers */,
+				F61A69602D41A71100A944C1 /* Button.swift in Headers */,
+				F61A69632D41A71100A944C1 /* NumberOfMonthsPicker.swift in Headers */,
+				F61A69672D41A71100A944C1 /* AmountHandler.swift in Headers */,
+				F61A696B2D41A71100A944C1 /* NetworkManager.swift in Headers */,
+				F61A69662D41A71100A944C1 /* Inss.swift in Headers */,
+				F61A695E2D41A71100A944C1 /* ExpenseSettingsPersistanceManager.swift in Headers */,
+				F61A69642D41A71100A944C1 /* Switch.swift in Headers */,
+				F61A69612D41A71100A944C1 /* Form.swift in Headers */,
+				F61A69622D41A71100A944C1 /* FormExpenseSettings.swift in Headers */,
+				F61A696A2D41A71100A944C1 /* ExchangeRate.swift in Headers */,
+				F61A695F2D41A71100A944C1 /* AmountInput.swift in Headers */,
+				F61A69682D41A71100A944C1 /* Vrau.swift in Headers */,
+				F61A69692D41A71100A944C1 /* CoinGecko.swift in Headers */,
+				F61A695D2D41A71100A944C1 /* UserDefaultsStorage.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,7 +605,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -580,10 +614,11 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.IHateTaxes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
@@ -612,7 +647,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -621,10 +656,11 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.IHateTaxes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;

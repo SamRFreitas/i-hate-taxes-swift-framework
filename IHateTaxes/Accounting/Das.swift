@@ -7,13 +7,13 @@
 
 import Foundation
 
-class Das {
+public class Das {
     
     var amount: Double
     var isNational: Bool
     var percentage: Double
     
-    init(amount: Double, isNational: Bool = false) {
+    public init(amount: Double, isNational: Bool = false) {
         
         self.amount = amount
         self.isNational = isNational
@@ -21,7 +21,7 @@ class Das {
         
     }
     
-    func getTax() -> Double {
+    public func getTax() -> Double {
         let result = AmountHandler().calculate(percentage: self.percentage, of: self.amount)
         return result
     }

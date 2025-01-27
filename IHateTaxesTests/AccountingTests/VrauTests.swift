@@ -81,16 +81,12 @@ final class VrauTests: XCTestCase {
         print("IRRF-------------------------\(vrau.inss!.getIrrfTax())")
         print("DAS--------------------------\(vrau.das!.getTax())")
         print("Despesas Anuais--------------\(vrau.expenseSettings.getFundsEarmarkedForAnnualBills())")
-        print("Pró-Labore------------------\(vrau.inss!.proLabore)")
+        print("Pró-Labore-------------------\(vrau.inss!.proLabore)")
         print("DLA--------------------------\(vrau.getDla())")
-        print("Total de Imposto--------------\(vrau.expenseSettings.contabilizeiMonthlyFee)")
+        print("Total de Imposto-------------\(vrau.expenseSettings.contabilizeiMonthlyFee)")
         print("Lucro------------------------\(vrau.inss!.proLabore + vrau.getDla())")
         print("------------------------------------------")
         
     }
-    
-    
-    
-    
 
 }

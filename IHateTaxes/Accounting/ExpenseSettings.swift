@@ -7,18 +7,18 @@
 
 import Foundation
 
-class ExpenseSettings: Codable {
+public class ExpenseSettings: Codable {
     
     var minimumWage: Double
     var proLaborePercentage: Double
-    var contabilizeiMonthlyFee: Double
+    public var contabilizeiMonthlyFee: Double
     var rental: Double
     var digitalSignature: Double
     var numberOfMonthsToSaveMoney: Int
     var isNational: Bool
     
     
-    init(minimumWage: Double, proLaborePercentage: Double, contabilizeiMonthlyFee: Double, rental: Double, digitalSignature: Double, numberOfMonthsToSaveMoney: Int, isNational: Bool) {
+    public init(minimumWage: Double, proLaborePercentage: Double, contabilizeiMonthlyFee: Double, rental: Double, digitalSignature: Double, numberOfMonthsToSaveMoney: Int, isNational: Bool) {
         
         self.minimumWage = minimumWage
         self.proLaborePercentage = proLaborePercentage
@@ -30,13 +30,13 @@ class ExpenseSettings: Codable {
         
     }
     
-    func getAnnualExpense() -> Double {
+    public func getAnnualExpense() -> Double {
         
         return self.rental + self.digitalSignature
         
     }
     
-    func getFundsEarmarkedForAnnualBills() -> Double {
+    public func getFundsEarmarkedForAnnualBills() -> Double {
         return getAnnualExpense() / Double(self.numberOfMonthsToSaveMoney)
     }
     

@@ -1,0 +1,4 @@
+module IHateTaxesPackageTests {
+    header "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesPackageTests.build/IHateTaxesPackageTests-Swift.h"
+    requires objc
+}

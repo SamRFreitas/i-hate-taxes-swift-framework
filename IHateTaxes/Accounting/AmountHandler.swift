@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct AmountHandler {
+public struct AmountHandler {
     
-    func calculate(percentage: Double, of value: Double) -> Double {
+    public func calculate(percentage: Double, of value: Double) -> Double {
         
         let result = value * (percentage / 100)
         
@@ -17,7 +17,7 @@ struct AmountHandler {
         
     }
     
-    func roundDouble(amount : Double) -> Double {
+    public func roundDouble(amount : Double) -> Double {
         
         let result = round(amount * 100) / 100.0
         
@@ -25,7 +25,7 @@ struct AmountHandler {
         
     }
     
-    func format(amount: Double, withDecimalPlaces decimalPlaces: Int = 2) -> String {
+    public func format(amount: Double, withDecimalPlaces decimalPlaces: Int = 2) -> String {
         
         let formatedValueString = String(format: "%.\(decimalPlaces)f", amount)
         

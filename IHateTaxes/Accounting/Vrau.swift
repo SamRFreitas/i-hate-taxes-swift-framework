@@ -7,21 +7,21 @@
 
 import Foundation
 
-class Vrau {
+public class Vrau {
     
     let amount: Double
-    let expenseSettings: ExpenseSettings
-    var inss: Inss? = nil
-    var das: Das? = nil
+    public let expenseSettings: ExpenseSettings
+    public var inss: Inss? = nil
+    public var das: Das? = nil
     
-    init(amount: Double, expenseSettings: ExpenseSettings) {
+    public init(amount: Double, expenseSettings: ExpenseSettings) {
         
         self.amount = amount
         self.expenseSettings = expenseSettings
         
     }
     
-    func configure() {
+    public func configure() {
         
         let amountForInssCalculate = self.getAmountForInssCalculation()
         
@@ -31,7 +31,7 @@ class Vrau {
         
     }
     
-    func getAmountForInssCalculation() -> Double {
+    public func getAmountForInssCalculation() -> Double {
         
         let amountForInssCalculation = AmountHandler().calculate(percentage: self.amount, of: self.expenseSettings.proLaborePercentage)
         
@@ -41,7 +41,7 @@ class Vrau {
     }
     
     
-    func getDla() -> Double {
+    public func getDla() -> Double {
         
         guard let inss = inss, let das = das else {
             fatalError("Inss and Das must be configured before use.")

@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/master.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/AmountHandlerTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/AmountHandlerTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/AmountHandlerTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/AmountHandlerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/AmountHandlerTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/DasTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/DasTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/DasTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/DasTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/DasTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/ExpenseSettingsTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/InssTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/InssTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/InssTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/InssTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/InssTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/Mocks/MockDas.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockDas.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockDas.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockDas~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockDas.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/Mocks/MockExpenseSettings.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockExpenseSettings.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockExpenseSettings.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockExpenseSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockExpenseSettings.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/Mocks/MockInss.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockInss.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockInss.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockInss~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockInss.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/AccountingTests/VrauTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/VrauTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/VrauTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/VrauTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/VrauTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/IHateTaxesTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/IHateTaxesTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/IHateTaxesTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/IHateTaxesTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/IHateTaxesTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/NetworkTests/CoinGeckoTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/CoinGeckoTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/CoinGeckoTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/CoinGeckoTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/CoinGeckoTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/NetworkTests/EchangeRateTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/EchangeRateTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/EchangeRateTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/EchangeRateTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/EchangeRateTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/NetworkTests/Mocks/MockURLSession.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockURLSession.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockURLSession.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockURLSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/MockURLSession.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/NetworkTests/NetworkManagerTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/NetworkManagerTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/NetworkManagerTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/NetworkManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/NetworkManagerTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/Persistence/ExpenseSettingsPersistanceManagerTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsPersistanceManagerTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsPersistanceManagerTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsPersistanceManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/ExpenseSettingsPersistanceManagerTests.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/Tests/IHateTaxesTests/Persistence/UserDefaultsStorageTests.swift": {
+    "dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/UserDefaultsStorageTests.d",
+    "object": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/UserDefaultsStorageTests.swift.o",
+    "swiftmodule": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/UserDefaultsStorageTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxesTests.build/UserDefaultsStorageTests.swiftdeps"
+  }
+}

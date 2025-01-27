@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct IrrfDeduction {
+public struct IrrfDeduction {
     
     var aliquot: Double = 0
     var value: Double = 0
     
-    init(amountWithoutTax: Double) {
+    public init(amountWithoutTax: Double) {
         
         if amountWithoutTax > 0 && amountWithoutTax <= 1903.98 {
             
@@ -44,9 +44,9 @@ struct IrrfDeduction {
     
 }
 
-class Inss {
+public class Inss {
     
-    let proLabore: Double
+    public let proLabore: Double
     
     init(amount: Double) {
         
@@ -54,7 +54,7 @@ class Inss {
     
     }
     
-    func getTax() -> Double {
+    public func getTax() -> Double {
             
         // Plano simplificado (11%) - Do Salário Mínimo
         let result = AmountHandler().calculate(percentage: 11, of: self.proLabore)
@@ -62,7 +62,7 @@ class Inss {
         
     }
     
-    func getIrrfTax() -> Double {
+    public func getIrrfTax() -> Double {
             
         let amountWithoutInssTax = self.proLabore - self.getTax()
         

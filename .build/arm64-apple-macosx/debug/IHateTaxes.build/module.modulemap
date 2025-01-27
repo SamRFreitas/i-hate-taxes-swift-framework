@@ -1,4 +1,0 @@
-module IHateTaxes {
-    header "/Users/samuelrdefreitas/Developer/IHateTaxes/.build/arm64-apple-macosx/debug/IHateTaxes.build/IHateTaxes-Swift.h"
-    requires objc
-}

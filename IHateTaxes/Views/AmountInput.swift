@@ -33,9 +33,17 @@ struct AmountInput: View {
                 ) // Adiciona uma borda arredondada
                 .frame(maxWidth: 200) // Largura máxima para limitar
                 .multilineTextAlignment(.trailing) // Alinha o texto à direita
-                .onChange(of: amount) { _, newValue in
-                    amount = validateInput(newValue) // Atualiza o valor após validação
-                }
+
+            // Verifica a versão do macOS antes de usar o onChange
+            if #available(macOS 14.0, *) {
+                TextField("Enter amount", value: $amount, formatter: amountFormatter)
+                    .onChange(of: amount) { _, newValue in
+                        amount = validateInput(newValue) // Atualiza o valor após validação
+                    }
+            } else {
+                // Para versões mais antigas, você pode usar uma outra abordagem
+                Text("onChange is not available for your macOS version")
+            }
         }
         .padding() // Espaçamento geral do componente
     }

@@ -7,15 +7,19 @@
 
 import SwiftUI
 
-struct Form: View {
+public struct Form: View {
     
     private var title: String = "Valor Recebido:"
     @State private var amount: Double = 0.0
     
-    var body: some View {
+    public var body: some View {
         
         VStack {
-            AmountInput(title: title, amount: $amount)
+            if #available(macOS 12.0, *) {
+                AmountInput(title: title, amount: $amount, mode: .currency)
+            } else {
+                // Fallback on earlier versions
+            }
             
             Button("Confirmar", action: {
                 // Aqui você pode fazer algo com o valor inserido

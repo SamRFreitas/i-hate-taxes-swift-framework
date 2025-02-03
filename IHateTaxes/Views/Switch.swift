@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct Switch: View {
+public struct Switch: View {
     
     @Binding var isOn: Bool // A variável que vai armazenar o estado do Switch
 
-    var body: some View {
+    public var body: some View {
         VStack {
             Toggle(isOn: $isOn) {
                 Text("\(isOn ? "Nacional" : "Internacional")") // O título do Switch

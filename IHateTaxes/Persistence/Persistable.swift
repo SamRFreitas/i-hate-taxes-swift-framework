@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Persistable {
+public protocol Persistable {
     
     associatedtype StoreEngine
     var storeEngine: StoreEngine { get }

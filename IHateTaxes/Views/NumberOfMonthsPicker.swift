@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct NumberOfMonthsPicker: View {
+public struct NumberOfMonthsPicker: View {
     @Binding var selectedMonth: Int
     
-    var body: some View {
+    public var body: some View {
         VStack {
-            Text("Escolha o número de meses")
+            Text("Escolha o número de meses, para juntar dinheiro para despesas anuais")
             
             Picker("Meses", selection: $selectedMonth) {
                 ForEach(1..<13) { month in

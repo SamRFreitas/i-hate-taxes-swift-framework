@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct SimpleButton: View {
+public struct SimpleButton: View {
     var title: String // Título do botão
     var action: () -> Void // Ação a ser executada quando o botão for pressionado
 
-    var body: some View {
+    public var body: some View {
         Button(action: action) {
             Text(title) // Aqui, o título é passado como um Text dentro do fechamento
                 .fontWeight(.bold)

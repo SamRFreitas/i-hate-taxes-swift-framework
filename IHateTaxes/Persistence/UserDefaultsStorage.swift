@@ -7,23 +7,23 @@
 
 import Foundation
 
-struct UserDefaultsStorage: Persistable {
+public struct UserDefaultsStorage: Persistable {
     
-    typealias StoreEngine = UserDefaults
+    public typealias StoreEngine = UserDefaults
     
-    var storeEngine: UserDefaults
+    public var storeEngine: UserDefaults
     
-    init(storeEngine: UserDefaults = .standard) {
+    public init(storeEngine: UserDefaults = .standard) {
         self.storeEngine = storeEngine
     }
     
-    func save<T: Codable>(_ data: T, forKey key: String) {
+    public func save<T: Codable>(_ data: T, forKey key: String) {
         if let encoded = try? JSONEncoder().encode(data) {
             storeEngine.set(encoded, forKey: key)
         }
     }
     
-    func load<T: Codable>(forKey key: String) -> T? {
+    public func load<T: Codable>(forKey key: String) -> T? {
         if let savedData = storeEngine.data(forKey: key),
            let decoded = try? JSONDecoder().decode(T.self, from: savedData) {
             return decoded
@@ -31,7 +31,7 @@ struct UserDefaultsStorage: Persistable {
         return nil
     }
     
-    func update<T: Codable>(_ data: T, forKey key: String) {
+    public func update<T: Codable>(_ data: T, forKey key: String) {
         save(data, forKey: key)
     }
     

@@ -1,70 +1,88 @@
-//
-//  AmountInput.swift
-//  IHateTaxes
-//
-//  Created by Samuel R de Freitas on 02/01/25.
-//
-
 import SwiftUI
 
-struct AmountInput: View {
+@available(macOS 12.0, *)
+public struct AmountInput: View {
     var title: String
-    @Binding var amount: Double // Valor ligado ao campo de entrada
+    @Binding var amount: Double
+    var mode: InputMode
     
-    private var amountFormatter: NumberFormatter {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        formatter.minimumFractionDigits = 2
-        formatter.maximumFractionDigits = 2
-        formatter.currencySymbol = "R$"
-        return formatter
+    @State private var textValue: String = ""
+    @FocusState private var isFocused: Bool
+    
+    enum InputMode {
+        case currency
+        case percentage
     }
 
-    var body: some View {
+    public var body: some View {
         VStack {
             Text(title)
-                .frame(maxWidth: 200, alignment: .center) // Permite que o título ocupe todo o espaço disponível
+                .frame(maxWidth: 200, alignment: .center)
                 .lineLimit(1)
-            TextField("Enter amount", value: $amount, formatter: amountFormatter)
-                .padding(8) // Espaçamento interno
+
+            TextField("Enter amount", text: $textValue)
+                .padding(8)
                 .overlay(
                     RoundedRectangle(cornerRadius: 8)
                         .stroke(Color.gray.opacity(0.6), lineWidth: 1)
-                ) // Adiciona uma borda arredondada
-                .frame(maxWidth: 200) // Largura máxima para limitar
-                .multilineTextAlignment(.trailing) // Alinha o texto à direita
-
-            // Verifica a versão do macOS antes de usar o onChange
-            if #available(macOS 14.0, *) {
-                TextField("Enter amount", value: $amount, formatter: amountFormatter)
-                    .onChange(of: amount) { _, newValue in
-                        amount = validateInput(newValue) // Atualiza o valor após validação
+                )
+                .frame(maxWidth: 200)
+                .multilineTextAlignment(.trailing)
+                #if os(iOS)
+                .keyboardType(.decimalPad)
+                #endif
+                .focused($isFocused)
+                .onTapGesture { // Limpa o campo ao clicar
+                    textValue = ""
+                }
+                .onChange(of: isFocused) { newValue in
+                    if newValue {
+                        // Ao entrar no campo: campo fica vazio
+                        textValue = ""
+                    } else {
+                        // Ao sair do campo: formata o valor
+                        textValue = formatValue(amount)
                     }
-            } else {
-                // Para versões mais antigas, você pode usar uma outra abordagem
-                Text("onChange is not available for your macOS version")
-            }
+                }
+                .onChange(of: textValue) { newValue in
+                    if isFocused {
+                        // Filtra caracteres inválidos
+                        textValue = filterInput(newValue)
+                        
+                        // Converte para Double
+                        if let validAmount = Double(textValue.replacingOccurrences(of: ",", with: ".")) {
+                            amount = validAmount
+                        }
+                    }
+                }
+                .onAppear {
+                    // Formata o valor inicial
+                    textValue = formatValue(amount)
+                }
         }
-        .padding() // Espaçamento geral do componente
+        .padding()
     }
     
-    private func validateInput(_ input: Double) -> Double {
-        // Converte o Double para String
-        var inputString = String(input)
-
-        // Regex para permitir apenas números e um único ponto decimal
-        let regex = "^[0-9]*\\.?[0-9]{0,2}$"
-
-        if let range = inputString.range(of: regex, options: .regularExpression) {
-            // Garante que o valor esteja dentro do padrão
-            inputString = String(inputString[range])
-        } else {
-            // Remove o último caractere inválido
-            inputString = String(inputString.dropLast())
+    private func filterInput(_ input: String) -> String {
+        let filtered = input
+            .filter { $0.isNumber || $0 == "." || $0 == "," }
+            .replacingOccurrences(of: ".", with: ",")
+        
+        // Permite apenas uma vírgula
+        let parts = filtered.components(separatedBy: ",")
+        if parts.count > 2 {
+            return parts[0] + "," + parts[1]
         }
-
-        // Converte de volta para Double; retorna 0.0 se a conversão falhar
-        return Double(inputString) ?? 0.0
+        return filtered
+    }
+    
+    private func formatValue(_ value: Double) -> String {
+        switch mode {
+        case .currency:
+            return String(format: "R$ %.2f", value).replacingOccurrences(of: ".", with: ",")
+        case .percentage:
+            return String(format: "%.2f%%", value).replacingOccurrences(of: ".", with: ",")
+        }
     }
 }
 
@@ -74,13 +92,20 @@ struct AmountInput_Previews: PreviewProvider {
 
     static var previews: some View {
         Group {
-            AmountInput(title: previewTitle, amount: $previewAmount)
-                .previewDisplayName("Default Preview")
+            if #available(macOS 12.0, *) {
+                AmountInput(title: previewTitle, amount: $previewAmount, mode: .currency)
+                    .previewDisplayName("Default Preview")
+            } else {
+                // Fallback on earlier versions
+            }
 
-            // Ajuste visual para macOS
-            AmountInput(title: previewTitle, amount: $previewAmount)
-                .previewDisplayName("macOS-like Preview")
-                .frame(width: 400, height: 60)
+            if #available(macOS 12.0, *) {
+                AmountInput(title: previewTitle, amount: $previewAmount, mode: .currency)
+                    .previewDisplayName("macOS-like Preview")
+                    .frame(width: 400, height: 60)
+            } else {
+                // Fallback on earlier versions
+            }
         }
         .previewLayout(.sizeThatFits)
         .padding()

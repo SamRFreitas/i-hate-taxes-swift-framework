@@ -1,0 +1,60 @@
+{
+  "" : {
+    "dependencies" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-iphonesimulator/IHateTaxes.build/Objects-normal/arm64/IHateTaxes-master.d",
+    "diagnostics" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-iphonesimulator/IHateTaxes.build/Objects-normal/arm64/IHateTaxes-master.dia",
+    "emit-module-dependencies" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-iphonesimulator/IHateTaxes.build/Objects-normal/arm64/IHateTaxes-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-iphonesimulator/IHateTaxes.build/Objects-normal/arm64/IHateTaxes-master-emit-module.dia",
+    "swift-dependencies" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-iphonesimulator/IHateTaxes.build/Objects-normal/arm64/IHateTaxes-master.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Accounting/AmountHandler.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Accounting/Das.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Accounting/ExpenseSettings.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Accounting/Inss.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Accounting/Vrau.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Network/CryptoServices/CoinGecko.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Network/Fiat/ExchangeRate.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Network/NetworkManager.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Persistence/ExpenseSettingsPersistanceManager.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Persistence/Persistable.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Persistence/UserDefaultsStorage.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Views/AmountInput.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Views/Button.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Views/Form.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Views/FormExpenseSettings.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Views/NumberOfMonthsPicker.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Views/Switch.swift" : {
+
+  }
+}

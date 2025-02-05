@@ -1,0 +1,6 @@
+framework module IHateTaxes {
+  umbrella header "IHateTaxes.h"
+  export *
+
+  module * { export * }
+}

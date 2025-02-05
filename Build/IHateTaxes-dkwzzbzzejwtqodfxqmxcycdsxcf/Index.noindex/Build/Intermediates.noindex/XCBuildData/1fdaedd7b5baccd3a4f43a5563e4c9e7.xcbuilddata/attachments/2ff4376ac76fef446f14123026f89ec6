@@ -1,0 +1,63 @@
+{
+  "" : {
+    "dependencies" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-maccatalyst/IHateTaxesTests.build/Objects-normal/arm64/IHateTaxesTests-master.d",
+    "diagnostics" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-maccatalyst/IHateTaxesTests.build/Objects-normal/arm64/IHateTaxesTests-master.dia",
+    "emit-module-dependencies" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-maccatalyst/IHateTaxesTests.build/Objects-normal/arm64/IHateTaxesTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-maccatalyst/IHateTaxesTests.build/Objects-normal/arm64/IHateTaxesTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/samuelrdefreitas/Developer/IHateTaxes/Build/IHateTaxes-dkwzzbzzejwtqodfxqmxcycdsxcf/Index.noindex/Build/Intermediates.noindex/IHateTaxes.build/Debug-maccatalyst/IHateTaxesTests.build/Objects-normal/arm64/IHateTaxesTests-master.swiftdeps"
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Accounting/AmountHandler.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Network/CryptoServices/CoinGecko.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxes/Network/NetworkManager.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/AmountHandlerTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/DasTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/ExpenseSettingsTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/InssTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/Mocks/MockDas.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/Mocks/MockExpenseSettings.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/Mocks/MockInss.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/AccountingTests/VrauTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/IHateTaxesTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/NetworkTests/CoinGeckoTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/NetworkTests/EchangeRateTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/NetworkTests/Mocks/MockURLSession.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/NetworkTests/NetworkManagerTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/Persistence/ExpenseSettingsPersistanceManagerTests.swift" : {
+
+  },
+  "/Users/samuelrdefreitas/Developer/IHateTaxes/IHateTaxesTests/Persistence/UserDefaultsStorageTests.swift" : {
+
+  }
+}

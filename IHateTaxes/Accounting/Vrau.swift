@@ -9,6 +9,8 @@ import Foundation
 
 public class Vrau {
     
+    // Its just a comment to test git integration on XCode
+    
     let amount: Double
     public let expenseSettings: ExpenseSettings
     public var inss: Inss? = nil
